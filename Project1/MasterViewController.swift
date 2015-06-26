@@ -20,6 +20,15 @@ class MasterViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let fm = NSFileManager.defaultManager()
+        let path = NSBundle.mainBundle().resourcePath!
+        let items = fm.contentsOfDirectoryAtPath(path, error: nil)
+        
+        for item in items as! [String] {
+            if item.hasPrefix("img") {
+                objects.append(item)
+            }
+        }
     }
 
     override func didReceiveMemoryWarning() {
