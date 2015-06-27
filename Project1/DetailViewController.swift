@@ -13,18 +13,18 @@ class DetailViewController: UIViewController {
 
     @IBOutlet weak var detailImageView: UIImageView!
 
-    var detailItem: AnyObject? {
+    var detailItem: String? {
         didSet {
             // Update the view.
-            self.configureView()
+            configureView()
         }
     }
 
     func configureView() {
         // Update the user interface for the detail item.
-        if let detail: AnyObject = self.detailItem {
-            if let label = self.detailDescriptionLabel {
-                label.text = detail.description
+        if let detail = self.detailItem {
+            if let imageView = self.detailImageView {
+                imageView.image = UIImage(named: detail)
             }
         }
     }
