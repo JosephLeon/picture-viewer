@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>91A8B2CD-41C5-4C19-BBBE-107D82946C05</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Project1</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>AD2E3CDC3D0DDA02DFFA5051D448B4482B44304C</key>
 		<string>github.com:JosephLeon/picture-viewer.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Project1.xcodeproj/project.xcworkspace</string>
+	<string>Project1.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>AD2E3CDC3D0DDA02DFFA5051D448B4482B44304C</key>
